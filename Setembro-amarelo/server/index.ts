@@ -15,7 +15,7 @@ app.post('/api/chat', async (req, res) => {
   try {
     const baseUrl = 'https://api.groq.com/openai/v1/chat/completions'; // endpoint oficial
     const apiKey = process.env.GROQ_API_KEY;
-    const model = process.env.MODEL || 'test/gpt-oss-safeguard-7b';
+    const model = process.env.MODEL || 'openai/gpt-oss-120b';
 
     if (!apiKey) {
       return res.status(500).json({ error: 'GROQ_API_KEY não configurada' });

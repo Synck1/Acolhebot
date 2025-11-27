@@ -28,7 +28,7 @@ const Index = () => {
 
     try {
       // Call the server API
-      const response = await fetch('http://localhost:3001/api/chat', {
+      const response = await fetch('https://acolhebot-back-end.vercel.app/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

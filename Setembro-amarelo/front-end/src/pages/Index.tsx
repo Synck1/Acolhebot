@@ -68,7 +68,7 @@ const Index = () => {
         // Mensagem de acolhimento inicial
         const botMessage: Message = {
           id: (Date.now() + 1).toString(),
-          text: "Poxa, sinto muito 😔 Quer me contar mais? Tô aqui pra ouvir.",
+          text: "Que bom que você quer conversar! Estou aqui para ouvir você. 😊",
           isUser: false,
           timestamp: new Date(),
         };

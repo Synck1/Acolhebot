@@ -3,7 +3,7 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import axios from 'axios';
-import { ACOLHEBOT_SYSTEM_PROMPT } from './prompts.ts';
+import { ACOLHEBOT_SYSTEM_PROMPT } from './prompts.js';
 
 const app = express();
 app.use(cors());
